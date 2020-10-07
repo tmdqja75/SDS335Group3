@@ -1,0 +1,11 @@
+On branch sungho
+Your branch is up to date with 'origin/sungho'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	sp_noadd.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+It means that sp_noadd.txt hasn't been pushed so that this file won't be included when i commit a change. 
