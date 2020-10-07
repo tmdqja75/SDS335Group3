@@ -1,0 +1,1 @@
+I have used git before in some of my Elements of Computing certifcates courses. I really liked how it makes easier to work and collaborate with other teammates.One of the hurdles I hit was a merge conflict.  
