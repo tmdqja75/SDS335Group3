@@ -1,0 +1,4 @@
+I have never used git in depth before. The first time I used git is downloading files for SDS335 class using git pull.
+I feel like leaning git definetly has some learning curve, but once I get hang of it, I'm sure it is a powerful tool for code collaboration and big programming project.
+I am comfortable with git pull function, but I still need to work on being fluent on pushing my local repository to the remote one.
+
