@@ -105,3 +105,84 @@ index 0000000..6858d3a
 +I feel like leaning git definetly has some learning curve, but once I get hang of it, I'm sure it is a powerful tool for code collaboration and big programming project.
 +I am comfortable with git pull function, but I still need to work on being fluent on pushing my local repository to the remote one.
 
+commit 75db31d255c4138016fb47f3de90ed2f1853f6ca
+Author: Sungho <sungho98@utexas.edu>
+Date:   Wed Oct 7 13:56:00 2020 -0500
+
+    modified status
+
+diff --git a/sp44443/sp_status.txt b/sp44443/sp_status.txt
+index e69de29..8349997 100644
+--- a/sp44443/sp_status.txt
++++ b/sp44443/sp_status.txt
+@@ -0,0 +1,11 @@
++On branch sungho
++Your branch is up to date with 'origin/sungho'.
++
++Untracked files:
++  (use "git add <file>..." to include in what will be committed)
++
++	sp_noadd.txt
++
++nothing added to commit but untracked files present (use "git add" to track)
++
++It means that sp_noadd.txt hasn't been pushed so that this file won't be included when i commit a change. 
+
+commit 5fbef86216a1e0cb22c775e1b064e649935cd2c2
+Author: Sungho <sungho98@utexas.edu>
+Date:   Wed Oct 7 13:49:31 2020 -0500
+
+    created a branch and files
+
+diff --git a/sp44443/sp_status.txt b/sp44443/sp_status.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/sp44443/sp_thoughts.txt b/sp44443/sp_thoughts.txt
+new file mode 100644
+index 0000000..a996722
+--- /dev/null
++++ b/sp44443/sp_thoughts.txt
+@@ -0,0 +1 @@
++I have used git before in some of my Elements of Computing certifcates courses. I really liked how it makes easier to work and collaborate with other teammates.One of the hurdles I hit was a merge conflict.  
+
+commit 0193067cc5b223e37e7cef5581ce5ac67e3fcdc1
+Merge: da5ad82 66c442f
+Author: Sungho <sungho98@utexas.edu>
+Date:   Thu Oct 1 15:11:24 2020 -0500
+
+    changed a file
+
+commit da5ad823ade0ce1cabe26fa01a41a1fcb57720f2
+Author: Sungho <sungho98@utexas.edu>
+Date:   Thu Oct 1 15:05:40 2020 -0500
+
+    changed a file
+
+diff --git a/jiyounglee.txt b/jiyounglee.txt
+index 88ec261..cb4e8a1 100644
+--- a/jiyounglee.txt
++++ b/jiyounglee.txt
+@@ -1 +1,2 @@
+ I love music. This is not a fun fact. I can't think of any. 
++Same
+diff --git a/sungho.txt b/sungho.txt
+deleted file mode 100644
+index e9c0848..0000000
+--- a/sungho.txt
++++ /dev/null
+@@ -1 +0,0 @@
+-I love listening to music
+
+commit 827c8f47558c11bb41d7fbd64803a7164a7b1d62
+Author: Sungho <sungho98@utexas.edu>
+Date:   Thu Oct 1 14:55:44 2020 -0500
+
+    introduction
+
+diff --git a/sungho.txt b/sungho.txt
+new file mode 100644
+index 0000000..e9c0848
+--- /dev/null
++++ b/sungho.txt
+@@ -0,0 +1 @@
++I love listening to music
